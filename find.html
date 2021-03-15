@@ -1,0 +1,151 @@
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+  
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <div >
+            <span class="relative-parent">
+              <i class="fas fa-cog fa-lg"></i>
+              <div class="find-screen-header-icon-more"></div>
+            </span>
+            
+        </div>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+      <div class="icon-row__column">
+        <i class="icon-row__icons fas fa-qrcode fa-2x"></i>
+        <span>QR Code</span>
+      </div>
+      
+      <div class="icon-row__column">
+        <i class="icon-row__icons far fa-address-book fa-2x"></i>
+        <div>
+          <span>Add by</span>
+          <span>Contacts</span>      
+        </div>
+      </div>
+      
+      <div class="icon-row__column">
+        <i class="icon-row__icons fas fa-font fa-2x"></i>
+        <span>Add by ID</span>
+      </div>
+      
+      <div class="icon-row__column">
+        <i class="icon-row__icons far fa-envelope fa-2x"></i>
+        <span>Invite</span>
+      </div>
+      </div>
+
+      <div class="recommended-friends">
+        <div class="recommended-friends__header">
+          <span>Recommended Friends</span>
+        </div>
+        <div class="recommended-friends__text">
+          <span>You have no recommended friends.</span>
+        </div>
+      
+      </div>
+
+      <div class="openchats">
+      <div class="openchats-header">
+        <span>Open Chat</span>
+        <a href="#"><span>Go to Openchat Home  <i class="fas fa-chevron-right fa-xs"></i></span></a>
+      </div>
+
+      <a class="openchats-channel" href="#">
+        <div class="openchats-channel__column">
+          <h2 class="openchats-channel__title">#BTS</h2>
+          <h4>#bts#army#friends</h4>
+          <div>
+            <img class="openchats-channel__details openchats-channel__photo" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMDNfMjUy%2FMDAxNjA5NjEwODEwMjM4.zEmpzYOFbGEVZNRhc-gckpK8plvOmqAtfCjZeEhrcaUg.0I7fu-xpuYZA6glrW9WtLRbcRq08aBo2_DhrIeeMgM4g.JPEG.rl234%2F1609610813921.jpg&type=a340" >
+            <span class="openchats-channel__details">802</span>
+            <span class="openchats-channel__details">members</span>
+            <div class="openchats-channel__details divider"></div>
+            <span id="active">Active</span>
+          </div>
+        </div>
+        <div class="openchats-channel__column relative-parent">
+          <img class="openchats-channel__sumnail" src="https://musicmeta-phinf.pstatic.net/album/005/151/5151462.jpg?type=r360Fll&v=20201211135909" >
+          <span class="openchats-channel__sumnail__text"><i class="fas fa-heart fa-xs"></i> 326</span>
+        </div>
+      </a>
+
+      <a class="openchats-channel" href="#">
+        <div class="openchats-channel__column">
+          <h2 class="openchats-channel__title">Web Developers</h2>
+          <h4>#개발자커뮤니티#질문환영</h4>
+          <div>
+            <img class="openchats-channel__details openchats-channel__photo" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMjFfMjYg%2FMDAxNjExMjM4NzgzNDM4.mkiEVcKjXtZW62aVCcQKIxc8_rK_TQHOy1AZdOrUffkg.z-dYtbx2gl5CPceqN8syVD4p3PDHK4Bu5m7jR8qXxiUg.PNG.joyhault1125%2FKakaoTalk_20210121_231644204_08.png&type=a340" >
+            <span class="openchats-channel__details">697</span>
+            <span class="openchats-channel__details">members</span>
+            <div class="openchats-channel__details divider"></div>
+            <span id="active">Active</span>
+          </div>
+        </div>
+        <div class="openchats-channel__column relative-parent">
+          <img class="openchats-channel__sumnail" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA2MjJfMjM1%2FMDAxNTYxMTg0ODIwNjI4.mMRf_WBBMP0_OUd1hH7ZWZivW44dVHn4CQcHCkjdD6sg.ve2IQRbcQj_j4HWyEJczu_ZYnSGKAsGE-sZo06SVY48g.JPEG.plc4351%2Fphoto-1517134191118-9d595e4c8c2b.jpg&type=a340" >
+          <span class="openchats-channel__sumnail__text"><i class="fas fa-heart fa-xs"></i> 401</span>
+        </div>
+      </a>
+      </div>
+    </main>
+
+   <nav class="nav">
+       <ul class="nav__list">
+           <li class="nav__btn">
+               <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+           </li>
+           <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notification badge">1</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+        </li>
+           <li class="nav__btn">
+               <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+           </li>
+           <li class="nav__btn">
+               <a class="nav__link" href="more.html">
+                 <div class="nav_notification__two"></div>
+                 <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+           </li>
+       </ul>
+   </nav>
+    
+    
+  <div id="no-mobile">
+    <span>Your screen is too big ㅠㅠ</span>
+  </div>
+  
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  </html>
